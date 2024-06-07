@@ -1,0 +1,19 @@
+.photos {
+  width: 300px;
+  text-align: center;
+  border: solid 2px red;
+  display: flex;
+}
+/* photos.css */
+.foto {
+    border: 1px solid #ccc;
+    padding: 16px;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .foto img {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,24 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  border-right: 2px solid gray;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  background-color: rgb(225, 228, 228);
+  /* position: fixed; */
+}
+.navlink {
+  border: 1px solid rgb(42 187 223);
+  margin: 10px 0px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+.navlink:hover {
+  background-color: rgb(42 187 223);
+  color: #fff;
+}
